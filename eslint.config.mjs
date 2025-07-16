@@ -1,4 +1,4 @@
-import es6 from '@cto.af/eslint-config/es6.js';
+import base from '@cto.af/eslint-config';
 import jsdoc from '@cto.af/eslint-config/jsdoc.js';
 import json from '@cto.af/eslint-config/json.js';
 import jts from '@cto.af/eslint-config/jsdoc_ts.js';
@@ -11,7 +11,7 @@ export default [
       'lib/**',
     ],
   },
-  ...es6,
+  ...base,
   ...ts,
   ...jsdoc,
   ...json,
