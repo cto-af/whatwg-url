@@ -13,11 +13,11 @@ Then edit package.json to use this:
 ```json
 {
   "override": {
-    "whatwg-url": "$whatwg-url"
+    "whatwg-url": "$@cto.af/whatwg-url"
   },
   "pnpm": {
     "override": {
-      "whatwg-url": "$whatwg-url"
+      "whatwg-url": "$@cto.af/whatwg-url"
     }
   }
 }
