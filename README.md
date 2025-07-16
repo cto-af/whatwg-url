@@ -1,11 +1,26 @@
 # @cto.af/whatwg-url
 
-Description
+This is a quick hack to replace just the external-facing parts of the [whatwg-url](https://github.com/jsdom/whatwg-url#readme) package with the modern, built-in version of URL and URLSearchParams.
 
 ## Installation
 
 ```sh
 npm install @cto.af/whatwg-url
+```
+
+Then edit package.json to use this:
+
+```json
+{
+  "override": {
+    "whatwg-url": "$whatwg-url"
+  },
+  "pnpm": {
+    "override": {
+      "whatwg-url": "$whatwg-url"
+    }
+  }
+}
 ```
 
 ## API
