@@ -9,34 +9,34 @@ importers:
   .:
     devDependencies:
       '@cto.af/eslint-config':
-        specifier: 6.2.5
+        specifier: ^6.2.5
         version: 6.2.5(eslint@10.1.0)(typescript@5.9.3)
       '@eslint/markdown':
-        specifier: 7.5.1
+        specifier: ^7.5.1
         version: 7.5.1
       eslint:
-        specifier: 10.1.0
+        specifier: ^10.1.0
         version: 10.1.0
       eslint-plugin-jsdoc:
-        specifier: 62.8.0
+        specifier: ^62.8.0
         version: 62.8.0(eslint@10.1.0)
       superc8:
         specifier: ^12.3.1
         version: 12.3.1
       tsup:
-        specifier: 8.5.1
+        specifier: ^8.5.1
         version: 8.5.1(typescript@5.9.3)(yaml@2.8.3)
       typedoc:
-        specifier: 0.28.17
+        specifier: ^0.28.17
         version: 0.28.17(typescript@5.9.3)
       typescript:
-        specifier: 5.9.3
+        specifier: ^5.9.3
         version: 5.9.3
       typescript-eslint:
-        specifier: 8.57.1
+        specifier: ^8.57.1
         version: 8.57.1(eslint@10.1.0)(typescript@5.9.3)
       whatwg-url:
-        specifier: 16.0.1
+        specifier: ^16.0.1
         version: 16.0.1
 
 packages:
