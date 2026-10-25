@@ -1,5 +1,6 @@
 'use strict';
 
+// eslint-disable-next-line n/prefer-import/assert-strict
 const assert = require('node:assert');
 const {URL: LocalURL, URLSearchParams: LocalURLSearchParams} = require('../lib/index.js');
 const test = require('node:test');
